@@ -4,10 +4,8 @@ main {
   font-family: sans-serif;
 }
 
-header {}
-
 nav {
-    /* flex-wrap: wrap; */
+  /* flex-wrap: wrap; */
   font-family: Poppins;
   font-size: 18px;
   font-weight: 700;
@@ -19,20 +17,18 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   align-items: center;
 }
 
 .mob-menu {
-
   margin: 0;
-
 }
 
-.mob-menu img{
+.mob-menu img {
   height: 55px;
   width: 55px;
 }
+
 .my-logo {
   text-decoration: none;
   font-size: 25px;
@@ -41,19 +37,14 @@ nav {
 }
 
 .banner {
-
-    padding: 20px;
-    /* margin-top: 25px; */
+  padding: 20px;
   flex-direction: column;
   height: 70vh;
   display: flex;
   justify-content: center;
-
-    /* align-items: space-between; */
 }
 
 .intro-text {
-
   align-items: space-around;
 }
 
@@ -65,20 +56,16 @@ nav {
   line-height: 52px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .intro-text p {
-
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-
 }
-
 
 .contact {
   margin-bottom: 30px;
@@ -92,39 +79,30 @@ nav {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .contact ul {
   list-style-type: none;
   align-content: space-around;
   padding-left: 0;
-
 }
 
 .contact li {
   display: inline;
   padding-right: 10px;
-  
 }
-.icons img{
-    padding: 10px;
-    left: 24px;
-    top: 470px;
-    border-radius: 14px;
-    
+
+.icons img {
+  padding: 10px;
+  left: 24px;
+  top: 470px;
+  border-radius: 14px;
 }
+
 .icons:hover {
   background-color: aquamarine;
 }
-.icons::before{
-    background-color: bisque;
-}
 
-/* .banner-img{
-  
-   position: absolute;
-   flex-shrink: 0;
-   min-height: 100%;
-   min-width: 100%;
-} */
+.icons::before {
+  background-color: bisque;
+}
