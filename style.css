@@ -1,7 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
 main {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
+  padding-top: 0;
+}
+
+header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav {
@@ -24,45 +41,62 @@ nav {
 }
 
 .mob-menu img {
-  height: 55px;
-  width: 55px;
+  height: 35px;
+  width: 35px;
 }
 
 .my-logo {
+  color: hsl(234, 100%, 69%);
+  height: 29px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
+  line-height: 20px;
   margin: 0;
-  padding-top: 10px;
+  border: 1px solid #6070ff;
+  border-radius: 2px;
+  font-weight: 700;
 }
 
 .banner {
-  padding: 20px;
+  padding: 0 30px;
+  background-color: #fff;
+  background-image: url(Images&Icons/mobile\ shapes.png);
   flex-direction: column;
-  height: 70vh;
+  padding-top: 130px;
   display: flex;
-  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .intro-text {
-  align-items: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .intro-text h1 {
   margin: 0;
   font-family: Poppins, sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 760;
   line-height: 52px;
-  letter-spacing: 0.1em;
+  color: #172b4d;
   text-align: left;
 }
 
 .intro-text p {
+  border: 1;
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.1em;
+  line-height: 20px;
+  color: #344563;
   text-align: left;
 }
 
@@ -71,24 +105,20 @@ nav {
 }
 
 .contact a {
+  padding-top: 10px;
+  color: #7f8cff;
   text-decoration: none;
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.1em;
   text-align: left;
 }
 
 .contact ul {
   list-style-type: none;
-  align-content: space-around;
+  display: flex;
   padding-left: 0;
-}
-
-.contact li {
-  display: inline;
-  padding-right: 10px;
 }
 
 .icons img {
