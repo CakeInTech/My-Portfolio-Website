@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  padding-top: 0;
+}
+
+header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 10px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mob-menu {
+  margin: 0;
+}
+
+.mob-menu img {
+  height: 35px;
+  width: 35px;
+}
+
+.my-logo {
+  color: hsl(234, 100%, 69%);
+  height: 29px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0;
+  border: 1px solid #6070ff;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+.banner {
+  padding: 0 30px;
+  background-color: #fff;
+  background-image: url(Images&Icons/mobile\ shapes.png);
+  flex-direction: column;
+  padding-top: 130px;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.intro-text h1 {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 760;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: left;
+}
+
+.intro-text p {
+  border: 1;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #344563;
+  text-align: left;
+}
+
+.contact {
+  margin-bottom: 30px;
+}
+
+.contact a {
+  padding-top: 10px;
+  color: #7f8cff;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.contact ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.icons img {
+  padding: 10px;
+  left: 24px;
+  top: 470px;
+  border-radius: 14px;
+}
+
+.icons:hover {
+  background-color: aquamarine;
+}
+
+.icons::before {
+  background-color: bisque;
+}
