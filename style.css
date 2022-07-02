@@ -273,19 +273,46 @@ h2 {
 .languages {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
 }
 
-.languages ul {
-  flex-direction: column;
-}
-
-.languages li {
-  padding: 40px 20px 40px 0;
-}
-
 hr {
   border: 1px solid #e3e5e9;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  color: #253858;
+  background-color: #f7f7f9;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.bio li {
+  display: flex;
+}
+
+.bio span {
+  padding: 20px 0 0 15px;
+}
+
+.bio ul {
+  padding: 0;
+}
+
+.tar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tar li {
+  padding: 20px 0;
 }
