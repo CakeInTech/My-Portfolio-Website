@@ -7,11 +7,17 @@
   vertical-align: baseline;
 }
 
+body{
+  background: #f7f7f9
+}
+
 main {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
   padding-top: 0;
+  gap: 50px;
+
 }
 
 header {
@@ -19,6 +25,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
+
 }
 
 nav {
@@ -29,7 +37,7 @@ nav {
   letter-spacing: 0.1em;
   text-align: center;
   padding: 10px;
-  height: 80px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -46,6 +54,7 @@ nav {
 }
 
 .my-logo {
+  font-family: 'Poppins', sans-serif;
   color: hsl(234, 100%, 69%);
   height: 29px;
   width: 70px;
@@ -57,21 +66,21 @@ nav {
   font-size: 18px;
   line-height: 20px;
   margin: 0;
-  border: 1px solid #6070ff;
-  border-radius: 2px;
-  font-weight: 700;
+  font-weight: 750;
 }
 
 .banner {
   padding: 0 30px;
-  background-color: #fff;
+
   background-image: url(Images&Icons/mobile\ shapes.png);
   flex-direction: column;
-  padding-top: 130px;
+  padding-top: 100px;
   display: flex;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 1px solid #dfe1e6;
+  border-radius: 0 0 0 70px;
 }
 
 .intro-text {
@@ -88,6 +97,7 @@ nav {
   line-height: 52px;
   color: #172b4d;
   text-align: left;
+  padding: 10px;
 }
 
 .intro-text p {
@@ -98,12 +108,17 @@ nav {
   line-height: 20px;
   color: #344563;
   text-align: left;
+  padding: 10px;
 }
 
 .contact {
   margin-bottom: 30px;
 }
 
+.connect{
+  padding-left: 6px;
+  margin: 20px 0;
+}
 .contact a {
   padding-top: 10px;
   color: #7f8cff;
@@ -134,4 +149,133 @@ nav {
 
 .icons::before {
   background-color: bisque;
+}
+.works{
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-row-gap: 30px;
+  padding: 30px;
+  
+}
+
+.Projects{
+ 
+  display: flex;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+h2{
+  color: #172B4D;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 20px 0;
+}
+.desc-list ul{
+  gap: 12px;
+  display: flex;
+  color: #7A869A;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+}
+.desc-list li{
+  list-style-type: none;
+}
+.Projects p{
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+
+.button-list ul {
+  justify-content: start;
+  display: flex;
+}
+
+.button-list li {
+  background-color:#ebebff;
+  margin-left: 20px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 14%;
+}
+
+.button-list li a {
+  text-decoration: none;
+  color: #6070FF;
+}
+
+.btn{
+  margin-top: 20px;
+}
+.btn button:hover{
+  background-color: #ebebff;
+}
+
+.btn button{
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #396DF2;
+  color: #396DF2;
+  display: flex;
+  text-align: center;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  border-radius: 15px;
+}
+
+.About {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  padding-top: 30px;
+  border-radius: 0 80px 0 0;
+  height: 70vh;
+  background-color: #fff;
+}
+.containerr{
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.languages{
+ font-family: 'Poppins', sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 24px;
+}
+
+.languages ul{
+  flex-direction: column;
+}
+
+.languages li{
+  padding: 40px 20px 40px 0;
+ 
 }
