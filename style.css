@@ -7,8 +7,8 @@
   vertical-align: baseline;
 }
 
-body{
-  background: #f7f7f9
+body {
+  background: #f7f7f9;
 }
 
 main {
@@ -17,7 +17,6 @@ main {
   font-family: sans-serif;
   padding-top: 0;
   gap: 50px;
-
 }
 
 header {
@@ -26,7 +25,6 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-
 }
 
 nav {
@@ -71,7 +69,6 @@ nav {
 
 .banner {
   padding: 0 30px;
-
   background-image: url(Images&Icons/mobile\ shapes.png);
   flex-direction: column;
   padding-top: 100px;
@@ -115,10 +112,11 @@ nav {
   margin-bottom: 30px;
 }
 
-.connect{
+.connect {
   padding-left: 6px;
   margin: 20px 0;
 }
+
 .contact a {
   padding-top: 10px;
   color: #7f8cff;
@@ -150,17 +148,15 @@ nav {
 .icons::before {
   background-color: bisque;
 }
-.works{
 
+.works {
   display: grid;
   grid-template-rows: 1fr;
   grid-row-gap: 30px;
   padding: 30px;
-  
 }
 
-.Projects{
- 
+.Projects {
   display: flex;
   padding: 15px;
   background-color: #fff;
@@ -170,8 +166,8 @@ nav {
   gap: 20px;
 }
 
-h2{
-  color: #172B4D;
+h2 {
+  color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -179,21 +175,23 @@ h2{
   line-height: 44px;
   padding: 20px 0;
 }
-.desc-list ul{
+
+.desc-list ul {
   gap: 12px;
   display: flex;
-  color: #7A869A;
+  color: #7a869a;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-
 }
-.desc-list li{
+
+.desc-list li {
   list-style-type: none;
 }
-.Projects p{
+
+.Projects p {
   color: #344563;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -202,14 +200,13 @@ h2{
   line-height: 24px;
 }
 
-
 .button-list ul {
   justify-content: start;
   display: flex;
 }
 
 .button-list li {
-  background-color:#ebebff;
+  background-color: #ebebff;
   margin-left: 20px;
   padding: 10px;
   font-family: 'Poppins', sans-serif;
@@ -221,29 +218,30 @@ h2{
 
 .button-list li a {
   text-decoration: none;
-  color: #6070FF;
+  color: #6070ff;
 }
 
-.btn{
+.btn {
   margin-top: 20px;
 }
-.btn button:hover{
-  background-color: #ebebff;
-}
 
-.btn button{
+.btn button {
   background-color: #fff;
   padding: 20px;
-  border: 1px solid #396DF2;
-  color: #396DF2;
+  border: 1px solid #396df2;
+  color: #396df2;
   display: flex;
   text-align: center;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
   border-radius: 15px;
+}
+
+.btn button:hover {
+  background-color: #ebebff;
 }
 
 .About {
@@ -255,7 +253,8 @@ h2{
   height: 70vh;
   background-color: #fff;
 }
-.containerr{
+
+.containerr {
   padding-top: 60px;
   display: flex;
   flex-direction: column;
@@ -263,19 +262,18 @@ h2{
   gap: 20px;
 }
 
-.languages{
- font-family: 'Poppins', sans-serif;
- font-style: normal;
- font-weight: 500;
- font-size: 20px;
- line-height: 24px;
+.languages {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
 }
 
-.languages ul{
+.languages ul {
   flex-direction: column;
 }
 
-.languages li{
+.languages li {
   padding: 40px 20px 40px 0;
- 
 }
