@@ -5,6 +5,7 @@
   font-size: 100%;
   font-family: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,7 +16,6 @@ main {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
-  padding-top: 0;
   gap: 50px;
 }
 
@@ -68,15 +68,14 @@ nav {
 }
 
 .banner {
-  padding: 0 30px;
+  background-color: #fff;
+  padding: 40px 20px;
   background-image: url(Images&Icons/mobile\ shapes.png);
   flex-direction: column;
-  padding-top: 100px;
   display: flex;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid #dfe1e6;
   border-radius: 0 0 0 70px;
 }
 
@@ -131,7 +130,7 @@ nav {
 .contact ul {
   list-style-type: none;
   display: flex;
-  padding-left: 0;
+  padding: 10px 0;
 }
 
 .icons img {
@@ -150,14 +149,13 @@ nav {
 }
 
 .works {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-row-gap: 30px;
   padding: 30px;
 }
 
 .Projects {
   display: flex;
+  margin: 40px 0;
+  width: 100%;
   padding: 15px;
   background-color: #fff;
   border-radius: 20px;
@@ -201,19 +199,19 @@ h2 {
 }
 
 .button-list ul {
+  gap: 10px;
   justify-content: start;
   display: flex;
 }
 
 .button-list li {
   background-color: #ebebff;
-  margin-left: 20px;
   padding: 10px;
   font-family: 'Poppins', sans-serif;
   list-style-type: none;
   font-weight: 500;
   font-size: 12px;
-  border-radius: 14%;
+  border-radius: 11%;
 }
 
 .button-list li a {
@@ -221,13 +219,9 @@ h2 {
   color: #6070ff;
 }
 
-.btn {
-  margin-top: 20px;
-}
-
 .btn button {
   background-color: #fff;
-  padding: 20px;
+  padding: 10px 20px;
   border: 1px solid #396df2;
   color: #396df2;
   display: flex;
@@ -237,10 +231,25 @@ h2 {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
-.btn button:hover {
+.contact button {
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #396df2;
+  color: #396df2;
+  display: flex;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  border-radius: 10px;
+}
+
+.contact button:hover {
   background-color: #ebebff;
 }
 
@@ -250,7 +259,6 @@ h2 {
   flex-direction: column;
   padding-top: 30px;
   border-radius: 0 80px 0 0;
-  height: 70vh;
   background-color: #fff;
 }
 
@@ -276,4 +284,8 @@ h2 {
 
 .languages li {
   padding: 40px 20px 40px 0;
+}
+
+hr {
+  border: 1px solid #e3e5e9;
 }
