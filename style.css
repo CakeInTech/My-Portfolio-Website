@@ -16,7 +16,7 @@ main {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
-  gap: 50px;
+  width: 327px;
 }
 
 header {
@@ -73,10 +73,10 @@ nav {
   background-image: url(Images&Icons/header-shapes.svg);
   flex-direction: column;
   display: flex;
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 0 0 70px;
+  margin-bottom: 100px;
 }
 
 .intro-text {
