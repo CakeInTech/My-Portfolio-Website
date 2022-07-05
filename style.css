@@ -130,13 +130,12 @@ nav {
 .contact ul {
   list-style-type: none;
   display: flex;
-  padding: 30px 0;
+  flex-direction: row;
+  padding: 30px 0px;
 }
 
-.icons img {
-  padding-left: 20px;
-  left: 24px;
-  top: 470px;
+.contact li {
+  padding-left: 10px;
 }
 
 .icons:hover {
@@ -331,6 +330,10 @@ hr {
 
 .contact-me h1 {
   color: white;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px
 }
 
 .contact-me p {
