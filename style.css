@@ -68,12 +68,13 @@ nav {
 
 .banner {
   background-color: #fff;
-  padding: 150px 5px;
+  padding: 150px 20px;
   background-image: url(Images&Icons/header-shapes.svg);
   flex-direction: column;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border-radius: 0 0 0 70px;
   margin-bottom: 100px;
 }
