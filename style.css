@@ -68,12 +68,12 @@ nav {
 
 .banner {
   background-color: #fff;
-  padding: 150px 20px;
+  padding: 120px 20px;
   background-image: url(Images&Icons/header-shapes.svg);
   flex-direction: column;
   display: flex;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   border-radius: 0 0 0 70px;
   margin-bottom: 100px;
@@ -447,7 +447,7 @@ input[type="submit"]:hover {
     flex-direction: column;
     background: url(Images&Icons/desktop-banner.png) ; 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     font-size: 48px;
     background-color: #fff;
     padding: 200px  185px 100px; 
@@ -455,7 +455,34 @@ input[type="submit"]:hover {
     
   }
 
+  .works {
+    padding: 0 140px;
+    display: grid;
+
+  }
+  
+  .Projects {
+    width: fit-content;
+    font-size: 12px;
+  }
+
   .foi1 {
-    
+    display: flex;
+    flex-direction: row;
+  }
+
+  .foi2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .foi3{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .foi4{
+    display: flex;
+    flex-direction: row;
   }
 }
