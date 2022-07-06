@@ -129,7 +129,7 @@ nav {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  padding: .5px 0;
+  padding: 0.5px 0;
 }
 
 .contact li {
@@ -437,14 +437,13 @@ input[type="submit"]:hover {
 
 @media (min-width: 768px) {
   .nav-bar span {
-   display: none;
+    display: none;
   }
-  
+
   .desktop-nav {
     display: flex;
-    
   }
-  
+
   .desktop-nav li {
     font-family: 'Poppins', sans-serif;
     list-style: none;
@@ -463,14 +462,13 @@ input[type="submit"]:hover {
   .banner {
     display: flex;
     flex-direction: column;
-    background: url(Images&Icons/desktop-banner.png) ; 
+    background: url(Images&Icons/desktop-banner.png);
     background-repeat: no-repeat;
     background-size: contain;
     font-size: 48px;
     background-color: #fff;
-    padding: 200px  185px 100px; 
+    padding: 200px  185px 100px;
     font-weight: 700;
-    
   }
 
   .works {
@@ -478,7 +476,7 @@ input[type="submit"]:hover {
     display: grid;
     justify-content: center;
   }
-  
+
   .Projects {
     /* width: fit-content; */
     font-size: 12px;
@@ -504,7 +502,7 @@ input[type="submit"]:hover {
   }
 
   .Mobile-banners {
-    display:flex;
+    display: flex;
     width: 50%;
     height: auto;
   }
@@ -517,10 +515,10 @@ input[type="submit"]:hover {
 
   .contact-me {
     justify-content: center;
-    background: #6070FF;
+    background: #6070ff;
     border-radius: 150px 0 0 0;
   }
-  
+
   .contact-banner {
     background: url(Images&icons/deski-contact.svg);
     background-size: contain;
@@ -548,7 +546,6 @@ input[type="submit"]:hover {
 
   .lang-deskitop {
     display: flex;
-
   }
 
   .bio {
