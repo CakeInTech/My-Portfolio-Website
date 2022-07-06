@@ -135,7 +135,7 @@ nav {
 }
 
 .contact li {
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .icons:hover {
@@ -411,4 +411,51 @@ input[type="submit"]:hover {
 
 .inputt > input {
   padding: 0 12px;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-bar span {
+   display: none;
+  }
+  
+  .desktop-nav {
+    display: flex;
+    
+  }
+  
+  .desktop-nav li {
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #344563;
+    line-height: 20px;
+    padding-left: 25px;
+  }
+
+  .desktop-nav li a {
+    text-decoration: none;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    background: url(Images&Icons/desktop-banner.png) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 48px;
+    background-color: #fff;
+    padding: 200px  185px 100px; 
+    font-weight: 700;
+    
+  }
+
+  .foi1 {
+    
+  }
 }
