@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font-family: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
 }
@@ -29,7 +27,7 @@ header {
 nav {
   font-family: Poppins, sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.1em;
   text-align: center;
@@ -53,17 +51,12 @@ nav {
 .my-logo {
   font-family: "Poppins", sans-serif;
   color: hsl(234, 100%, 69%);
-  height: 29px;
-  width: 70px;
   display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 40px;
   line-height: 20px;
   margin: 0;
-  font-weight: 750;
+  font-weight: 500;
 }
 
 .banner {
@@ -74,11 +67,9 @@ nav {
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* background-position: center; */
   border-radius: 0 0 0 70px;
   margin-bottom: 100px;
-  min-width: 100%;
+  width: 100%;
 }
 
 .intro-text {
@@ -344,7 +335,9 @@ hr {
   gap: 20px;
   text-align: center;
   color: white;
-  padding: 114px 0 0 0;
+  padding: 0 0 0 0;
+  background: url(Images&Icons/contact-me-back.svg) no-repeat;
+  background-size: cover;
 }
 
 .contact-me h1 {
@@ -353,6 +346,7 @@ hr {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+
 }
 
 .contact-me p {
@@ -361,11 +355,12 @@ hr {
 }
 
 .contact-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   text-align: center;
   color: white;
   padding: 114px 24px 0 24px;
-  background: url(Images&Icons/contact-me-back.svg) no-repeat;
-  background-size: cover;
 }
 
 input[id="fname"],
@@ -442,7 +437,18 @@ input[type="submit"]:hover {
   display: none;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
 @media (min-width: 768px) {
+  header {
+    padding: 30px 110px;
+  }
+
   .nav-bar span {
     display: none;
   }
@@ -454,12 +460,15 @@ input[type="submit"]:hover {
   .desktop-nav li {
     font-family: 'Poppins', sans-serif;
     list-style: none;
+    padding-left: 25px;
+  }
+
+  .desktop-nav a {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     color: #344563;
-    line-height: 20px;
-    padding-left: 25px;
+    line-height: 30px;
   }
 
   .desktop-nav li a {
@@ -471,11 +480,16 @@ input[type="submit"]:hover {
     flex-direction: column;
     background: url(Images&Icons/desktop-banner.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     font-size: 48px;
     background-color: #fff;
-    padding: 200px  185px 100px;
+    padding: 180px 0;
     font-weight: 700;
+    align-items: center;
+  }
+
+  .banner-containers {
+    width: 45%;
   }
 
   .works {
@@ -521,19 +535,30 @@ input[type="submit"]:hover {
   }
 
   .contact-me {
-    justify-content: center;
+    display: flex;
     background: #6070ff;
     border-radius: 150px 0 0 0;
+    padding: 20px;
+  }
+
+  .contact-backgrounds {
+    background: url(Images&icons/deski-contact.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .contact-banner {
-    background: url(Images&icons/deski-contact.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 70px 200px;
+
+    padding: 200px 20px 50px 20px;
     display: flex;
     flex-direction: column;
     gap: 35px;
+   
+    max-width: 40%;
   }
 
   input[type="submit"] {
@@ -547,26 +572,30 @@ input[type="submit"]:hover {
     width: 50%;
   }
 
-  .languages {
-    width: 50%;
-  }
-
   .lang-deskitop {
     display: flex;
   }
 
+  .languages {
+    width: 50%;
+  }
+
+  .jas {
+    padding-left: 20px;
+    
+  }
+
   .bio {
-    padding: 20px 12px 20px 10px;
+    padding: 15px 60px 30px 15px;
     text-align: center;
     display: flex;
     align-items: flex-start;
     margin-right: 20px;
-    width: 27%;
     flex-direction: column;
   }
 
   .bio span {
-    padding: 0 12px 0 0;
+    padding: 12px 0 0 0;
   }
 
   .contact {
@@ -582,4 +611,16 @@ input[type="submit"]:hover {
   .tar {
     margin-bottom: 30px;
   }
+  
 }
+
+@media (max-width: 1300px) {
+  .banner {
+    /* background-size: contain; */
+  }
+  
+  .contact-backgrounds{
+    background-size: contain;
+  }
+}
+
