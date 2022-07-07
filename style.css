@@ -73,10 +73,11 @@ nav {
   flex-direction: column;
   display: flex;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  /* background-position: center; */
   border-radius: 0 0 0 70px;
   margin-bottom: 100px;
+  min-width: 100%;
 }
 
 .intro-text {
@@ -108,7 +109,10 @@ nav {
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 30px;
+  gap: 15px;
 }
 
 .connect {
@@ -258,10 +262,12 @@ h2 {
   line-height: 24px;
   letter-spacing: 0.03em;
   border-radius: 10px;
+  width: fit-content;
 }
 
-.contact button:hover {
-  background-color: #ebebff;
+button:hover {
+  background-color: #6070FF;
+  color: white;
 }
 
 .About {
@@ -297,7 +303,7 @@ hr {
 
 .bio {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: #253858;
   background-color: #f7f7f9;
   margin: 5px 0;
@@ -337,7 +343,7 @@ hr {
   gap: 20px;
   text-align: center;
   color: white;
-  padding: 114px 24px 0 24px;
+  padding: 114px 0 0 0;
 }
 
 .contact-me h1 {
@@ -549,16 +555,17 @@ input[type="submit"]:hover {
   }
 
   .bio {
-    padding: 20px;
+    padding: 20px 12px 20px 10px;
     text-align: center;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-right: 20px;
     width: 27%;
+    flex-direction: column;
   }
 
   .bio span {
-    padding: 10px;
+    padding: 0 12px 0 0;
   }
 
   .contact {
@@ -569,5 +576,9 @@ input[type="submit"]:hover {
 
   .contact button {
     width: fit-content;
+  }
+
+  .tar {
+    margin-bottom: 30px;
   }
 }
