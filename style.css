@@ -346,7 +346,6 @@ hr {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
 }
 
 .contact-me p {
@@ -422,7 +421,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #fefe50;
+  background-color: #6070ff;
+  color: white;
 }
 
 .inputt {
@@ -435,13 +435,6 @@ input[type="submit"]:hover {
 
 .desktop-nav {
   display: none;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #172b4d;
 }
 
 @media (min-width: 768px) {
@@ -552,12 +545,10 @@ h1 {
   }
 
   .contact-banner {
-
     padding: 200px 20px 50px 20px;
     display: flex;
     flex-direction: column;
     gap: 35px;
-   
     max-width: 40%;
   }
 
@@ -582,7 +573,6 @@ h1 {
 
   .jas {
     padding-left: 20px;
-    
   }
 
   .bio {
@@ -611,16 +601,10 @@ h1 {
   .tar {
     margin-bottom: 30px;
   }
-  
 }
 
 @media (max-width: 1300px) {
-  .banner {
-    /* background-size: contain; */
-  }
-  
-  .contact-backgrounds{
+  .contact-backgrounds {
     background-size: contain;
   }
 }
-
