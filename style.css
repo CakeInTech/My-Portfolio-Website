@@ -74,6 +74,7 @@ nav {
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
+
   /* background-position: center; */
   border-radius: 0 0 0 70px;
   margin-bottom: 100px;
@@ -266,7 +267,7 @@ h2 {
 }
 
 button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: white;
 }
 
