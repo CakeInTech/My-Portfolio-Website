@@ -98,6 +98,20 @@ nav {
   color: #344563;
   text-align: left;
   padding: 10px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 5%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .contact {
@@ -599,6 +613,12 @@ input[type="submit"]:hover {
 
   .tar {
     margin-bottom: 30px;
+  }
+
+  .Mobile-banners:hover {
+    transform: scale(0.95);
+    transition-duration: 500ms;
+    filter: grayscale(100%);
   }
 }
 
