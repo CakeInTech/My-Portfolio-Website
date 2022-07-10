@@ -179,6 +179,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  border: 1px solid #dfe1e6 ;
 }
 
 .text {
@@ -509,6 +510,8 @@ input[type="submit"]:hover {
 
   .Projects {
     font-size: 12px;
+    display: flex;
+    flex-direction: row;
   }
 
   .foi1 {
