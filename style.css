@@ -17,15 +17,13 @@ main {
 }
 
 header {
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
+  display: block;
 }
 
 nav {
+  background-color: #fff;
   font-family: Poppins, sans-serif;
+  position: fixed;
   font-size: 18px;
   font-weight: 400;
   line-height: 20px;
@@ -37,6 +35,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .mob-menu {
@@ -465,8 +464,8 @@ input[type="submit"]:hover {
 }
 
 @media (min-width: 768px) {
-  header {
-    padding: 0 130px 50px 130px;
+  .nav-bar {
+    padding: 0 130px 0 130px;
   }
 
   .nav-bar span {
@@ -498,18 +497,19 @@ input[type="submit"]:hover {
   .banner {
     background-color: #fff;
     font-weight: 700;
+    padding-top: 100px;
   }
 
   .fit-background {
     font-size: 48px;
-    padding: 180px 0;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: url(Images&Icons/desktop-banner.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 1397.4px;
+    background-size: contain;
+    width: 100%;
     height: 721.46px;
   }
 
