@@ -57,6 +57,8 @@ nav {
   line-height: 20px;
   margin: 0;
   font-weight: 500;
+  transform: rotate(360deg);
+  transition: 1s;
 }
 
 .banner {
@@ -98,6 +100,20 @@ nav {
   color: #344563;
   text-align: left;
   padding: 10px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 5%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .contact {
@@ -163,6 +179,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  border: 1px solid #dfe1e6;
 }
 
 .text {
@@ -342,7 +359,7 @@ hr {
 
 .contact-me h1 {
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -451,7 +468,7 @@ input[type="submit"]:hover {
   }
 
   .desktop-nav li {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     list-style: none;
     padding-left: 25px;
   }
@@ -493,6 +510,8 @@ input[type="submit"]:hover {
 
   .Projects {
     font-size: 12px;
+    display: flex;
+    flex-direction: row;
   }
 
   .foi1 {
@@ -599,6 +618,12 @@ input[type="submit"]:hover {
 
   .tar {
     margin-bottom: 30px;
+  }
+
+  .Mobile-banners:hover {
+    transform: scale(0.95);
+    transition-duration: 500ms;
+    filter: grayscale(100%);
   }
 }
 
