@@ -75,7 +75,7 @@ nav {
   padding: 120px 20px;
   display: flex;
   flex-direction: column;
-  background-image: url(Images&Icons/header-shapes.svg);  
+  background-image: url(Images&Icons/header-shapes.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   align-items: center;
@@ -500,7 +500,7 @@ input[type="submit"]:hover {
     font-weight: 700;
   }
 
-  .fit-background {   
+  .fit-background {
     font-size: 48px;
     padding: 180px 0;
     display: flex;
