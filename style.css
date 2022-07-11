@@ -53,7 +53,7 @@ nav {
   color: hsl(234, 100%, 69%);
   display: flex;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 25px;
   line-height: 20px;
   margin: 0;
   font-weight: 500;
@@ -62,16 +62,23 @@ nav {
 }
 
 .banner {
-  background-color: #fff;
-  padding: 120px 20px;
-  background-image: url(Images&Icons/header-shapes.svg);
-  flex-direction: column;
   display: flex;
-  background-repeat: no-repeat;
-  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
   border-radius: 0 0 0 70px;
   margin-bottom: 100px;
   width: 100%;
+}
+
+.fit-background {
+  padding: 120px 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(Images&Icons/header-shapes.svg);  
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-items: center;
 }
 
 .intro-text {
@@ -244,10 +251,10 @@ h2 {
 }
 
 .btn button {
-  background-color: #fff;
+  background-color: #6070ff;
   padding: 10px 20px;
   border: 1px solid #396df2;
-  color: #396df2;
+  color: #fff;
   display: flex;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -256,13 +263,14 @@ h2 {
   line-height: 24px;
   letter-spacing: 0.03em;
   border-radius: 10px;
+  transition: all 0.5s ease-out;
 }
 
 .contact button {
-  background-color: #fff;
+  background-color: #6070ff;
   padding: 10px 20px;
   border: 1px solid #396df2;
-  color: #396df2;
+  color: #fff;
   display: flex;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -272,11 +280,12 @@ h2 {
   letter-spacing: 0.03em;
   border-radius: 10px;
   width: fit-content;
+  transition: all 0.5s ease-out;
 }
 
 button:hover {
-  background-color: #6070ff;
-  color: white;
+  background-color: white;
+  color: #6070ff;
 }
 
 .About {
@@ -435,6 +444,7 @@ input[type="submit"] {
   line-height: 20px;
   cursor: pointer;
   background-color: #fff;
+  transition: all 0.5s ease-out;
 }
 
 input[type="submit"]:hover {
@@ -456,7 +466,7 @@ input[type="submit"]:hover {
 
 @media (min-width: 768px) {
   header {
-    padding: 30px 110px;
+    padding: 0 130px 50px 130px;
   }
 
   .nav-bar span {
@@ -475,7 +485,7 @@ input[type="submit"]:hover {
 
   .desktop-nav a {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     color: #344563;
     line-height: 30px;
@@ -486,20 +496,25 @@ input[type="submit"]:hover {
   }
 
   .banner {
+    background-color: #fff;
+    font-weight: 700;
+  }
+
+  .fit-background {   
+    font-size: 48px;
+    padding: 180px 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background: url(Images&Icons/desktop-banner.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 48px;
-    background-color: #fff;
-    padding: 180px 0;
-    font-weight: 700;
-    align-items: center;
+    background-size: 100% 100%;
+    width: 1397.4px;
+    height: 721.46px;
   }
 
   .banner-containers {
-    width: 45%;
+    width: 65%;
   }
 
   .works {
