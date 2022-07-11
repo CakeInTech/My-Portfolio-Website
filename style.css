@@ -361,8 +361,13 @@ hr {
   text-align: center;
   color: white;
   padding: 0 0 0 0;
-  background: url(Images&Icons/contact-me-back.svg) no-repeat;
+
+}
+
+.contact-backgrounds {
+  background: url(Images&Icons/contact-me-back.svg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contact-me h1 {
