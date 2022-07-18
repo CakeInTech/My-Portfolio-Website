@@ -19,17 +19,29 @@
 <body>
 
   <main class="main">
-    <header class="header">
-      <nav class="nav-bar">
+    <header>
+      <div class="container">
         <a href="#" class="my-logo">CAkE</a>
-        <span class="mob-menu"><img src="Images&Icons/Enabled.png" alt="" /></span>
-        <ul class="desktop-nav">
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
+        <nav class="dropdown">
+          <img src="Images&Icons/Enabled.png"  class="mob-menu" alt="navbar icon">
+          <ul class="mobileNav">
+            <li class="menuMobile closeBtn"><a href="javascript:void(0)" class="link">×</a></li>
+            <li class="menuMobile"><a href="#works" class="link">Portfolio</a></li>
+            <li class="menuMobile"><a href="#about" class="link">About</a></li>
+            <li class="menuMobile"><a href="#contact" class="link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="desktop-nav">
+          <ul class="navList">
+            <li class="menuDesk"><a href="#works" class="menulink">Portfolio</a></li>
+            <li class="menuDesk"><a href="#about">About</a></li>
+            <li class="menuDesk"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <script src="Index.js"></script>
     <section class="banner">
       <div class="fit-background">
         <div class="banner-containers">
@@ -67,7 +79,7 @@
       </div>
     </section>
 
-    <section class="works">
+    <section class="works" id="works">
       <div class="Projects  foi1">
         <img class="Mobile-banners" src="Images&Icons/PortoflioCard2/SnapshootPortfolio.svg" alt="">
         <img class="work-banners" src="Images&Icons/SnapshootPortfolio.png" alt="Portfolio image" />
@@ -213,7 +225,7 @@
         </div>
       </div>
     </section>
-    <section class="About">
+    <section class="About" id="about">
       <div class="containerr">
         <div class="about-deskitop">
           <div class="intro-text">
@@ -284,7 +296,7 @@
       </div>
     </section>
 
-    <section class="contact-me">
+    <section class="contact-me" id="contact">
       <div class="contact-backgrounds">
         <div class="contact-banner">
           <h1>Contact me</h1>

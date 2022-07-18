@@ -20,7 +20,7 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Mohamed Abdulhakim**
 
 - GitHub: [@githubhandle](https://github.com/MohamedCK)
 - Twitter: [@twitterhandle](https://twitter.com/MohamedCK0)
