@@ -18,6 +18,7 @@ main {
 
 header {
   display: block;
+  font-family: sans-serif;
 }
 
 .container {
@@ -208,6 +209,7 @@ header {
   width: 100%;
   margin: 0;
   padding-left: 40px !important;
+  background-color: #6070ff !important;
 }
 
 .mobileNav li a {
