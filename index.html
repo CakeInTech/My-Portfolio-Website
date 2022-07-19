@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="test.css" />
+  <link rel="stylesheet" href="popup.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <title>CAkE Portfolio</title>
@@ -100,11 +100,53 @@
             </ul>
           </div>
           <div class="btn">
-            <button type="button">See project</button>
+            <button data-model-target="#model" type="button">See project</button>
           </div>
         </div>
       </div>
+      <div class="pop-up1 active" id="model">
+        <div class="model-container">
+          <div class="model-headline">
+            <h2 class="Tonic">Tonic</h2>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="desc-list">
+            <ul>
+              <li class="CANOPY">CANAPY</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>Back End Dev</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>2022</li>
+            </ul>
+          </div>
+          <img class="Mobile-banners" src="Images&Icons/PortoflioCard2/SnapshootPortfolio.svg" alt="">
+          <img class="work-banners" src="Images&Icons/SnapshootPortfolio.png" alt="Portfolio image" />
 
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatibus id deserunt deleniti quia aliquam earum amet inventore magnam!
+            Corporis ipsa ullam ex quasi similique sit, praesentium alias doloremque dignissimos
+          </p>
+
+          <div class="button-list">
+            <ul>
+              <li><a href="">HTML</a></li>
+              <li><a href="">CSS</a></li>
+              <li><a href="">JAVASCRIPT</a></li>
+            </ul>
+          </div>
+
+          <div class="btn">
+            <button type="button">See live</button>
+            <button type="button">See Source</button>
+          </div>
+
+        </div>
+      </div>
+      
       <div class="Projects  foi1 foo1">
         <img class="Mobile-banners" src="Images&Icons/PortoflioCard4/SnapshootPortfolio.svg" alt="">
         <img class="work-banners" src="Images&Icons/work2.png" alt="" />
@@ -212,6 +254,7 @@
           </div>
         </div>
       </div>
+      <div class="active" id="overlay"></div>
     </section>
     <section class="About">
       <div class="containerr">
@@ -283,7 +326,7 @@
 
       </div>
     </section>
-
+    <script src="popup.js"></script>
     <section class="contact-me">
       <div class="contact-backgrounds">
         <div class="contact-banner">
@@ -314,6 +357,7 @@
       </div>
     </section>
   </main>
+  
 </body>
 
 </html>
