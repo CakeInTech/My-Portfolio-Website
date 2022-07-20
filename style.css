@@ -524,6 +524,15 @@ input[type="submit"]:hover {
   display: none;
 }
 
+.validationMessage {
+  text-align: center;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  color: red;
+  font-size: 18px;
+  padding: 20px;
+}
+
 @media (min-width: 768px) {
   .dropdown {
     display: none;
