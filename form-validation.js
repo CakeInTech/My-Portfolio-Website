@@ -8,6 +8,6 @@ contactForm.addEventListener('submit', (par1) => {
     validationMessage.innerHTML = 'You are supposed to use lowercase for the email.';
     par1.preventDefault();
   } else {
-    validationMessage.innerHTML = "";
+    validationMessage.innerHTML = '';
   }
 });
