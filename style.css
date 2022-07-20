@@ -414,19 +414,19 @@ hr {
 .contact-me {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   text-align: center;
   color: white;
-  padding: 0 0 0 0;
 }
 
 .contact-backgrounds {
   background: url(Images&Icons/contact-me-back.svg);
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
-.contact-me h1 {
+.contact-backgrounds h1 {
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -434,7 +434,7 @@ hr {
   line-height: 52px;
 }
 
-.contact-me p {
+.contact-backgrounds p {
   font-size: 20px;
   line-height: 28px;
 }
@@ -445,7 +445,7 @@ hr {
   gap: 40px;
   text-align: center;
   color: white;
-  padding: 114px 24px 0 24px;
+  padding: 170px 24px 0 24px;
 }
 
 input[id="fname"],
@@ -513,7 +513,7 @@ input[type="submit"]:hover {
 }
 
 .inputt {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .inputt > input {
@@ -522,6 +522,13 @@ input[type="submit"]:hover {
 
 .desktop-nav {
   display: none;
+}
+
+.validationMessage {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: red;
+  font-size: 18px;
 }
 
 @media (min-width: 768px) {
@@ -622,11 +629,11 @@ input[type="submit"]:hover {
   .contact-me {
     display: flex;
     background: #6070ff;
-    border-radius: 150px 0 0 0;
     padding: 20px;
   }
 
   .contact-backgrounds {
+    border-radius: 150px 0 0 0;
     background: url(Images&Icons/deski-contact.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -698,11 +705,5 @@ input[type="submit"]:hover {
     transform: scale(0.95);
     transition-duration: 500ms;
     filter: grayscale(100%);
-  }
-}
-
-@media (max-width: 1300px) {
-  .contact-backgrounds {
-    background-size: contain;
   }
 }
