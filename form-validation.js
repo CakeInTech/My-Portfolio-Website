@@ -7,5 +7,7 @@ contactForm.addEventListener('submit', (par1) => {
   if (/[A-Z]/.test(stringMessage)) {
     validationMessage.innerHTML = 'You are supposed to use lowercase for the email.';
     par1.preventDefault();
+  } else {
+    validationMessage.innerHTML = "";
   }
 });
