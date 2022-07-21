@@ -18,18 +18,31 @@
 
 <body>
 
-  <main class="main">
-    <header class="header">
-      <nav class="nav-bar">
-        <a href="#" class="my-logo">CAkE</a>
-        <span class="mob-menu"><img src="Images&Icons/Enabled.png" alt="" /></span>
-        <ul class="desktop-nav">
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+  <header>
+    <div class="container">
+      <a href="#" class="my-logo">CAkE</a>
+      <nav class="dropdown">
+        <img src="Images&Icons/Enabled.png"  class="mob-menu" alt="navbar icon">
+        <ul class="mobileNav">
+          <li class="menuMobile closeBtn"><a href="javascript:void(0)" class="link">×</a></li>
+          <li class="menuMobile"><a href="#works" class="link">Portfolio</a></li>
+          <li class="menuMobile"><a href="#about" class="link">About</a></li>
+          <li class="menuMobile"><a href="#contact" class="link">Contact</a></li>
         </ul>
       </nav>
-    </header>
+
+      <nav class="desktop-nav">
+        <ul class="navList">
+          <li class="menuDesk"><a href="#works" class="menulink">Portfolio</a></li>
+          <li class="menuDesk"><a href="#about">About</a></li>
+          <li class="menuDesk"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    
     <section class="banner">
       <div class="fit-background">
         <div class="banner-containers">
@@ -67,6 +80,7 @@
       </div>
     </section>
 
+<<<<<<< HEAD
     <section class="works">
 
       <div class="model" id="model">
@@ -117,6 +131,9 @@
       </div>
 
 
+=======
+    <section class="works" id="works">
+>>>>>>> e2d68409ec1847d5dc1ae7cbbee53dbc61b5e008
       <div class="Projects  foi1">
         <img class="Mobile-banners" src="Images&Icons/PortoflioCard2/SnapshootPortfolio.svg" alt="">
         <img class="work-banners" src="Images&Icons/SnapshootPortfolio.png" alt="Portfolio image" />
@@ -267,10 +284,14 @@
 
 
     </section>
+<<<<<<< HEAD
     <div id="model1">
 
     </div>
     <section class="About">
+=======
+    <section class="About" id="about">
+>>>>>>> e2d68409ec1847d5dc1ae7cbbee53dbc61b5e008
       <div class="containerr">
         <div class="about-deskitop">
           <div class="intro-text">
@@ -340,8 +361,13 @@
 
       </div>
     </section>
+<<<<<<< HEAD
     <script src="popup.js"></script>
     <section class="contact-me">
+=======
+
+    <section class="contact-me" id="contact">
+>>>>>>> e2d68409ec1847d5dc1ae7cbbee53dbc61b5e008
       <div class="contact-backgrounds">
         <div class="contact-banner">
           <h1>Contact me</h1>
@@ -352,15 +378,16 @@
           </p>
 
 
-          <form action="https://formspree.io/f/xdobrago" method="post">
+          <form class = "form" action="https://formspree.io/f/xdobrago" method="post">
             <div class="inputt">
+              <p class="validationMessage"></p>
               <input type="text" id="fname" name="fullname" placeholder="  Your name?" maxlength="30" required />
             </div>
             <div class="inputt">
-              <input type="email" id="email" name="email" placeholder="  Your email address?" required />
+              <input class="emails" type="email" id="email" name="email" placeholder="  Your email address?" required />
             </div>
             <div class="inputt">
-              <textarea id="msg" name="message" placeholder="  Write your message here" maxlength="500"
+              <textarea class="contact-message" id="msg" name="message" placeholder="  Write your message here" maxlength="500"
                 required></textarea>
             </div>
             <div class="inputt">
@@ -370,8 +397,14 @@
         </div>
       </div>
     </section>
+<<<<<<< HEAD
   </main>
 
+=======
+   </main>
+  <script src="Index.js"></script>
+  <script src="form-validation.js"></script>
+>>>>>>> e2d68409ec1847d5dc1ae7cbbee53dbc61b5e008
 </body>
 
 </html>
