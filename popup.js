@@ -51,7 +51,6 @@ function showModal(work) {
   document.querySelector('.tonic').innerHTML = projectDetails.title;
   document.querySelector('.descriptionist').innerHTML = projectDetails.discription;
   document.querySelector('.work-banners-model').src = projectDetails.imageLink;
-  // document.querySelector('.model .button-list').innerHTML = listButton (popup, work);
   document.querySelector('.canopy-model').innerHTML = projectDetails.company;
   document.querySelector('.year-model').innerHTML = projectDetails.year;
   document.querySelector('.dogWater').href = projectDetails.sourceLink;
