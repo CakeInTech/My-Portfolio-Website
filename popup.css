@@ -1,8 +1,9 @@
-.pop-up1 {
+.model {
+  /* display: none; */
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%);
   transition: 200ms ease-in;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
@@ -14,11 +15,7 @@
   font-family: 'poppins', sans-serif;
 }
 
-.pop-up1 .active {
-  transform: translate(-50%, -50%) scale(1);   
-}
-
-.pop-up1 .btn {
+.model .btn {
   display: flex;
   padding: 20px 0;
   justify-content: space-between;
@@ -50,19 +47,13 @@
   padding: 10px;
 }
 
-#overlay {
-  position: fixed;
-  opacity: 0;
-  background-color: rgba(0, 0, 0, .5);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-  transition: 200ms ease-in;
+.button-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
-#overlay .active {
-  opacity: 1;
-  pointer-events: all;
+.button-list li {
+  padding-right: 20px;
 }
+
