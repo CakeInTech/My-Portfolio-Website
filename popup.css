@@ -1,5 +1,5 @@
 .model {
-  /* display: none; */
+  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -31,7 +31,6 @@
 .model-headline {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .model-headline button {
@@ -57,3 +56,6 @@
   padding-right: 20px;
 }
 
+.mobile-banners-model {
+  display: none;
+}
