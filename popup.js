@@ -1,6 +1,7 @@
 const openPopup = document.querySelector('.model');
 const closePopup = document.querySelector('.close-button');
 const seeProject = document.querySelectorAll('.seeProject');
+const overlay = document.querySelector('#overlay')
 
 const popup = [
     {
@@ -61,9 +62,12 @@ seeProject.forEach((element) => {
   element.addEventListener('click', (event) => {
     showModal(event.target.dataset.work);
     openPopup.style.display = 'block';
+    overlay.style.display = 'block';
   }, false);
 });
 
 closePopup.addEventListener('click', () => {
     openPopup.style.display = 'none';
+    overlay.style.display = 'none';
 });
+

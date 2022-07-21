@@ -1,9 +1,10 @@
 .model {
+  box-sizing: border-box;
   display: none;
   position: fixed;
-  top: 50%;
+  top: 450px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -55%);
   transition: 200ms ease-in;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
@@ -47,9 +48,9 @@
 }
 
 .button-list {
+  padding: 0;
   display: flex;
   justify-content: flex-start;
-  gap: 10px;
 }
 
 .button-list li {
@@ -58,4 +59,58 @@
 
 .mobile-banners-model {
   display: none;
+}
+
+.dogWater {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.btn button {
+  padding: 10px;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(193, 199, 208, 0.678);
+  filter: blur(10px);
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+   .model {
+    margin: 0 auto;
+     width: 45.75rem;
+    /* height: 50%; */
+    font-size: 0.625rem;
+ 
+  }
+  
+  .mobile-banners-model {
+    display: block;
+    height: 50vh;
+   }
+
+   .work-banners-model {
+    display: none;
+   }
+
+   .parlist {
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+    }
+    .lister {
+      font-size: 12px;
+    }
+    
+    .model-container {
+    max-width: 60.75rem;   
+   }
 }
