@@ -64,7 +64,6 @@
 .dogWater {
   text-decoration: none;
   color: white;
-  
 }
 
 .btn button {
@@ -84,33 +83,34 @@
 }
 
 @media (min-width: 768px) {
-   .model {
+  .model {
     margin: 0 auto;
-     width: 45.75rem;
+    width: 45.75rem;
+
     /* height: 50%; */
     font-size: 0.625rem;
- 
   }
-  
+
   .mobile-banners-model {
     display: block;
     height: 50vh;
-   }
+  }
 
-   .work-banners-model {
+  .work-banners-model {
     display: none;
-   }
+  }
 
-   .parlist {
-     display: flex;
-     flex-direction: row;
-     gap: 20px;
-    }
-    .lister {
-      font-size: 12px;
-    }
-    
-    .model-container {
-    max-width: 60.75rem;   
-   }
+  .parlist {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .lister {
+    font-size: 12px;
+  }
+
+  .model-container {
+    max-width: 60.75rem;
+  }
 }
