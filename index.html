@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="test.css" />
+  <link rel="stylesheet" href="popup.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <title>CAkE Portfolio</title>
@@ -80,7 +80,58 @@
       </div>
     </section>
 
-    <section class="works" id="works">
+    <section class="works">
+
+      <div class="model" id="model">
+        <div class="model-container">
+          <div class="model-headline">
+            <h2 class="tonic">Tarik</h2>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="desc-list">
+            <ul>
+              <li class="canopy-model">CANAPY</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li>Back End Dev</li>
+              <li>
+                <a href=""><img src="Images&Icons/Counter.png" alt="" /></a>
+              </li>
+              <li class="year-model">2022</li>
+            </ul>
+          </div>
+          <div class="image-overflow">
+            <img class="mobile-banners-model" src="Images&Icons/PortoflioCard2/SnapshootPortfolio.svg" alt="">
+          </div>
+          <img class="work-banners-model" src="Images&Icons/SnapshootPortfolio.png" alt="Portfolio image" />
+          <div class="parlist">
+
+            <p class="descriptionist">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatibus id deserunt deleniti quia aliquam earum amet inventore magnam!
+
+            </p>
+            <div class="lister">
+
+              <ul class="button-list">
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JAVASCRIPT</a></li>
+              </ul>
+
+
+
+              <div class="btn">
+                <button class="dogWater" type="button">See live</button>    
+                <button class="catWater" type="button">See Source</button>  
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <div class="Projects  foi1">
         <img class="Mobile-banners" src="Images&Icons/PortoflioCard2/SnapshootPortfolio.svg" alt="">
         <img class="work-banners" src="Images&Icons/SnapshootPortfolio.png" alt="Portfolio image" />
@@ -113,7 +164,7 @@
             </ul>
           </div>
           <div class="btn">
-            <button type="button">See project</button>
+            <button data-work="0" class="seeProject" type="button">See project</button>
           </div>
         </div>
       </div>
@@ -149,7 +200,7 @@
             </ul>
           </div>
           <div class="btn">
-            <button type="button">See project</button>
+            <button data-work="1" class="seeProject" type="button">See project</button>
           </div>
         </div>
       </div>
@@ -185,7 +236,7 @@
             </ul>
           </div>
           <div class="btn">
-            <button type="button">See project</button>
+            <button data-work="2" class="seeProject" type="button">See project</button>
           </div>
         </div>
       </div>
@@ -221,11 +272,20 @@
             </ul>
           </div>
           <div class="btn">
-            <button type="button">See project</button>
+            <button data-work="3" class="seeProject" type="button">See project</button>
           </div>
         </div>
       </div>
+      <div class="active" id="overlay"></div>
+
+
+
+
     </section>
+    <div id="model1">
+
+    </div>
+  
     <section class="About" id="about">
       <div class="containerr">
         <div class="about-deskitop">
@@ -296,6 +356,8 @@
 
       </div>
     </section>
+    <script src="popup.js"></script>
+
 
     <section class="contact-me" id="contact">
       <div class="contact-backgrounds">
@@ -311,7 +373,7 @@
           <form class = "form" action="https://formspree.io/f/xdobrago" method="post">
             <div class="inputt">
               <p class="validationMessage"></p>
-              <input type="text" id="fname" name="fullname" placeholder="  Your name?" maxlength="30" required />
+              <input class="fullname" type="text" id="fname" name="fullname" placeholder="  Your name?" maxlength="30" required />
             </div>
             <div class="inputt">
               <input class="emails" type="email" id="email" name="email" placeholder="  Your email address?" required />
@@ -327,9 +389,10 @@
         </div>
       </div>
     </section>
-   </main>
+  </main>
   <script src="Index.js"></script>
   <script src="form-validation.js"></script>
+  <script src="local.js"></script>
 </body>
 
 </html>
