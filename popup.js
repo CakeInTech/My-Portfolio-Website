@@ -3,52 +3,52 @@ const closePopup = document.querySelector('.close-button');
 const seeProject = document.querySelectorAll('.seeProject');
 
 const popup = [
-    {
-       title: 'Tonic',
-       discription:  'Lorem ipsum, dolor sit amet consectetur adipisici the dog hit the man and it really did hurt a lot and this is it for this description',
-       imageLink: 'Images&Icons/SnapshootPortfolio.png',
-       tags: ['HTML', 'CSS', 'Javascript'],
-       company: 'Canopy',
-       year: '2015',
-       sourceLink: '',
-       demoLink: '',
-    },
-    {
-        title: 'Multi-post Stories',
-        discription:  'Lorem ipsum, dolor sit amet consectetur adipisici the dog hit the man and it really did hurt a lot and this is it for this description',
-        imageLink: 'Images&Icons/SnapshootPortfolio.png',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        company: 'Canopy',
-        year: '2022',
-        sourceLink: '',
-        demoLink: '',
-     },
-     {
-        title: 'Tonic',
-        discription:  'Lorem ipsum, dolor sit amet consectetur adipisici the dog hit the man and it really did hurt a lot and this is it for this description',
-        imageLink: 'Images&Icons/SnapshootPortfolio.png',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        company: 'Canopy',
-        year: '2015',
-        sourceLink: '',
-        demoLink: '',
-     },
-     {
-        title: 'Multi-post Stories',
-        discription:  'Lorem ipsum, dolor sit amet consectetur adipisici the dog hit the man and it really did hurt a lot and this is it for this description',
-        imageLink: 'Images&Icons/SnapshootPortfolio.png',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        company: 'Canopy',
-        year: '2015',
-        sourceLink: '',
-        demoLink: '',
-     }
-]
+  {
+    title: 'Tonic',
+    discription: 'Lorem ipsum, dolor sit amet consectetur adipisici the dog hit the man and it really did hurt a lot and this is it for this description',
+    imageLink: 'Images&Icons/SnapshootPortfolio.png',
+    tags: ['HTML', 'CSS', 'Javascript'],
+    company: 'Canopy',
+    year: '2015',
+    sourceLink: '',
+    demoLink: '',
+  },
+  {
+    title: 'Multi-post Stories',
+    discription: 'Lorem ipsum, dolor sit amet consectetur adipisici the dog hit the man and it really did hurt a lot and this is it for this description',
+    imageLink: 'Images&Icons/SnapshootPortfolio.png',
+    tags: ['HTML', 'CSS', 'Javascript'],
+    company: 'Canopy',
+    year: '2022',
+    sourceLink: '',
+    demoLink: '',
+  },
+  {
+    title: 'Tonic',
+    discription: 'Lorem ipsum, dolor sit amet consectetur adipisici the dog hit the man and it really did hurt a lot and this is it for this description',
+    imageLink: 'Images&Icons/SnapshootPortfolio.png',
+    tags: ['HTML', 'CSS', 'Javascript'],
+    company: 'Canopy',
+    year: '2015',
+    sourceLink: '',
+    demoLink: '',
+  },
+  {
+    title: 'Multi-post Stories',
+    discription: 'Lorem ipsum, dolor sit amet consectetur adipisici the dog hit the man and it really did hurt a lot and this is it for this description',
+    imageLink: 'Images&Icons/SnapshootPortfolio.png',
+    tags: ['HTML', 'CSS', 'Javascript'],
+    company: 'Canopy',
+    year: '2015',
+    sourceLink: '',
+    demoLink: '',
+  },
+];
 
 popup.forEach((element) => {
-   const works = document.querySelector('.works')
-   const oneCard = document.createElement('div')
-   oneCard.innerHTML=`${oneCard.innerHTML}
+  const works = document.querySelector('.works');
+  const oneCard = document.createElement('div');
+  oneCard.innerHTML = `${oneCard.innerHTML}
    <img class="Mobile-banners" src="$" alt="">
    <img class="work-banners" src="" alt="Portfolio image" />
    <div class="text">
@@ -82,12 +82,12 @@ popup.forEach((element) => {
      <div class="btn">
        <button data-close-button="0" class="seeProject" type="button">See project</button>
      </div>
-   </div>`
-   oneCard.classList.add('Projects');
-   oneCard.classList.add('foi1');
-   oneCard.classList.add('foo1');
-   works.appendChild(oneCard);
-}) 
+   </div>`;
+  oneCard.classList.add('Projects');
+  oneCard.classList.add('foi1');
+  oneCard.classList.add('foo1');
+  works.appendChild(oneCard);
+});
 
 // popup.forEach(() => {
 //   const popCard = document.querySelector('.model')
@@ -123,7 +123,6 @@ popup.forEach((element) => {
 //       <li><a href="">JAVASCRIPT</a></li>
 //     </ul>
 
-
 //   <div class="btn">
 //     <button class="dogWater" type="button">See live</button>
 //     <button class="catWater" type="button">See Source</button>
@@ -134,26 +133,25 @@ popup.forEach((element) => {
 //   popCard.append(openPopup)
 // })
 
-
 function popupFunction(work) {
   const projectDetails = popup[work];
   document.querySelector('.tonic').innerHTML = projectDetails.title;
   document.querySelector('.discriptionist').innerHTML = projectDetails.discription;
   document.querySelector('.model .workbanners').href = projectDetails.imageLink;
-  document.querySelector('.model .button-list').innerHTML = listButton (popup, work);
+  document.querySelector('.model .button-list').innerHTML = listButton(popup, work);
   document.querySelector('.canopy').innerHTML = projectDetails.company;
   document.querySelector('.year').innerHTML = projectDetails.year;
   document.querySelector('.dogWater').href = projectDetails.sourceLink;
   document.querySelector('.catWater').href = projectDetails.demoLink;
 }
 
-seeProject.forEach(element => {
+seeProject.forEach((element) => {
   element.addEventListener('click', (event) => {
-    popupFunction (event.dataset.work);
+    popupFunction(event.dataset.work);
     openPopup.style.display = 'block';
   }, false);
 });
 
 closePopup.addEventListener('click', () => {
-    openPopup.style.display = 'none';
+  openPopup.style.display = 'none';
 });
