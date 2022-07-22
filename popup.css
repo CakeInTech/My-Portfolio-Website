@@ -2,9 +2,9 @@
   box-sizing: border-box;
   display: none;
   position: fixed;
-  top: 410px;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -55%);
+  transform: translate(-50%, -50%);
   transition: 200ms ease-in;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
@@ -85,15 +85,18 @@
 @media (min-width: 768px) {
   .model {
     margin: 0 auto;
-    width: 45.75rem;
-
-    /* height: 50%; */
+    width: 50.75rem;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
     font-size: 0.625rem;
+    height: 80vh;
   }
 
   .mobile-banners-model {
     display: block;
-    height: 50vh;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .work-banners-model {
@@ -112,5 +115,10 @@
 
   .model-container {
     max-width: 60.75rem;
+  }
+
+  .image-overflow {
+    overflow: scroll;
+    height: 40vh;
   }
 }
