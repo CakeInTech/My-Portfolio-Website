@@ -1,7 +1,7 @@
-const menuIcon = document.querySelector('$mob-menu');
-const sideNav = document.querySelector('$mobileNav');
-const menuLinks = document.querySelectorAll('$enuMobile');
-const main = document.querySelector('$main');
+const menuIcon = document.querySelector('.mob-menu');
+const sideNav = document.querySelector('.mobileNav');
+const menuLinks = document.querySelectorAll('.enuMobile');
+const main = document.querySelector('.main');
 
 const open = () => {
   sideNav.classList.add('mobileNavActive');
