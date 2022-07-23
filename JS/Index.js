@@ -1,6 +1,6 @@
 const menuIcon = document.querySelector('.mob-menu');
 const sideNav = document.querySelector('.mobileNav');
-const menuLinks = document.querySelectorAll('.enuMobile');
+const menuLinks = document.querySelectorAll('.menuMobile');
 const main = document.querySelector('.main');
 
 const open = () => {
