@@ -5,27 +5,28 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 200ms ease-in;
-  border: 1px solid #dfe1e6;
-  border-radius: 20px;
+  transition: 50ms ease-in;
+  border: 0.0625rem solid #dfe1e6;
+  border-radius: 1.25rem;
   background-color: #fff;
-  padding: 30px;
+  padding: 1.0625rem;
   z-index: 10;
-  width: 500px;
+  width: 400px;
   max-width: 80%;
   font-family: 'poppins', sans-serif;
+  font-size: 10px;
 }
 
 .model .btn {
   display: flex;
-  padding: 20px 0;
-  justify-content: space-between;
+  gap: 2.125rem;
+  justify-content: center;
 }
 
 .model-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
   width: 100%;
 }
 
@@ -35,7 +36,6 @@
 }
 
 .model-headline button {
-  font-size: 40px;
   cursor: pointer;
   border: none;
   outline: none;
@@ -44,17 +44,24 @@
 }
 
 .model-headline h2 {
-  padding: 10px;
+  padding: 0.625rem;
+  font-size: 29px;
 }
 
 .button-list {
   padding: 0;
   display: flex;
   justify-content: flex-start;
+  width: 70%;
+  flex-wrap: wrap;
 }
 
 .button-list li {
-  padding-right: 20px;
+  margin: 0.3125rem;
+}
+
+.button-list li a {
+  font-size: 0.625rem;
 }
 
 .mobile-banners-model {
@@ -64,10 +71,12 @@
 .dogWater {
   text-decoration: none;
   color: white;
+  font-size: 0.0625rem;
 }
 
-.btn button {
-  padding: 10px;
+.model button {
+  padding: 0.3125rem;
+  font-size: 0.9375rem;
 }
 
 #overlay {
@@ -78,19 +87,19 @@
   right: 0;
   bottom: 0;
   background: rgba(193, 199, 208, 0.678);
-  filter: blur(10px);
+  filter: blur(0.625rem);
   z-index: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .model {
     margin: 0 auto;
-    width: 50.75rem;
+    width: 956px;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -70%);
-    font-size: 0.625rem;
-    height: 80vh;
+    font-size: 0.9375rem;
+    height: 90vh;
   }
 
   .mobile-banners-model {
@@ -106,19 +115,22 @@
   .parlist {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
+    justify-content: space-between;
   }
 
   .lister {
-    font-size: 12px;
+    min-width: 30%;
   }
 
   .model-container {
-    max-width: 60.75rem;
+    width: 100%;
+    height: 100%;
   }
 
   .image-overflow {
     overflow: scroll;
-    height: 40vh;
+    height: 50vh;
+    margin-bottom: 1.25rem;
   }
 }
