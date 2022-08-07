@@ -6,7 +6,7 @@ const overlay = document.querySelector('#overlay');
 const popup = [
   {
     title: 'Tonic',
-    discription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam et, vel quos quaerat atque illum? Consequatur cum accusantium incidunt dolorum doloribus quam possimus labore ab, neque nemo fugit suscipit nesciunt quia ea qui, eligendi aliquam dignissimos quisquam magni quo culpa nostrum. Facilis nobis dolor id. Suscipit quisquam sapiente quasi enim, sequi quia error iste a voluptatum expedita aliquam dolore officiis similique animi neque quod eaque necessitatibus eum voluptas cum molestiae? Nisi veniam sint unde, facilis architecto voluptas aliquid molestiae omnis vel, consequatur fugit officiis distinctio porro harum, quo adipisci. Sed aliquid ipsum rerum eum praesentium. Similique ab minima eveniet.',
+    discription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam et, vel quos quaerat atque illum? Consequatur cum accusantium incidunt dolorum doloribus quam possimus labore ab, neque nemo fugit suscipit nesciunt quia ea qui, eligendi aliquam dignissimos quisquam magni quo culpa nostrum. Facilis nobis dolor id.',
     imageLink: 'Images&Icons/SnapshootPortfolio.png',
     imageLink1: 'Images&Icons/PortoflioCard2/SnapshootPortfolio.svg',
     tags: ['HTML', 'CSS', 'Javascript'],
@@ -17,7 +17,7 @@ const popup = [
   },
   {
     title: 'Multi-post Stories',
-    discription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam et, vel quos quaerat atque illum? Consequatur cum accusantium incidunt dolorum doloribus quam possimus labore ab, neque nemo fugit suscipit nesciunt quia ea qui, eligendi aliquam dignissimos quisquam magni quo culpa nostrum. Facilis nobis dolor id. Suscipit quisquam sapiente quasi enim, sequi quia error iste a voluptatum expedita aliquam dolore officiis similique animi neque quod eaque necessitatibus eum voluptas cum molestiae? Nisi veniam sint unde, facilis architecto voluptas aliquid molestiae omnis vel, consequatur fugit officiis distinctio porro harum, quo adipisci. Sed aliquid ipsum rerum eum praesentium. Similique ab minima eveniet.',
+    discription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam et, vel quos quaerat atque illum? Consequatur cum accusantium incidunt dolorum doloribus quam possimus labore ab, neque nemo fugit suscipit nesciunt quia ea qui, eligendi aliquam dignissimos quisquam magni quo culpa nostrum. Facilis nobis dolor id.',
     imageLink: 'Images&Icons/work2.png',
     imageLink1: 'Images&Icons/PortoflioCard4/SnapshootPortfolio.svg',
     tags: ['HTML', 'CSS', 'Javascript'],
@@ -28,7 +28,7 @@ const popup = [
   },
   {
     title: 'Tonic',
-    discription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam et, vel quos quaerat atque illum? Consequatur cum accusantium incidunt dolorum doloribus quam possimus labore ab, neque nemo fugit suscipit nesciunt quia ea qui, eligendi aliquam dignissimos quisquam magni quo culpa nostrum. Facilis nobis dolor id. Suscipit quisquam sapiente quasi enim, sequi quia error iste a voluptatum expedita aliquam dolore officiis similique animi neque quod eaque necessitatibus eum voluptas cum molestiae? Nisi veniam sint unde, facilis architecto voluptas aliquid molestiae omnis vel, consequatur fugit officiis distinctio porro harum, quo adipisci. Sed aliquid ipsum rerum eum praesentium. Similique ab minima eveniet.',
+    discription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam et, vel quos quaerat atque illum? Consequatur cum accusantium incidunt dolorum doloribus quam possimus labore ab, neque nemo fugit suscipit nesciunt quia ea qui, eligendi aliquam dignissimos quisquam magni quo culpa nostrum. Facilis nobis dolor id.',
     imageLink: 'Images&Icons/work3.png',
     imageLink1: 'Images&Icons/PortoflioCard1/SnapshootPortfolio.svg',
     tags: ['HTML', 'CSS', 'Javascript'],
@@ -39,7 +39,7 @@ const popup = [
   },
   {
     title: 'Multi-post Stories',
-    discription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam et, vel quos quaerat atque illum? Consequatur cum accusantium incidunt dolorum doloribus quam possimus labore ab, neque nemo fugit suscipit nesciunt quia ea qui, eligendi aliquam dignissimos quisquam magni quo culpa nostrum. Facilis nobis dolor id. Suscipit quisquam sapiente quasi enim, sequi quia error iste a voluptatum expedita aliquam dolore officiis similique animi neque quod eaque necessitatibus eum voluptas cum molestiae? Nisi veniam sint unde, facilis architecto voluptas aliquid molestiae omnis vel, consequatur fugit officiis distinctio porro harum, quo adipisci. Sed aliquid ipsum rerum eum praesentium. Similique ab minima eveniet.',
+    discription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam et, vel quos quaerat atque illum? Consequatur cum accusantium incidunt dolorum doloribus quam possimus labore ab, neque nemo fugit suscipit nesciunt quia ea qui, eligendi aliquam dignissimos quisquam magni quo culpa nostrum. Facilis nobis dolor id..',
     imageLink: 'Images&Icons/work4.png',
     imageLink1: 'Images&Icons/PortoflioCard3/SnapshootPortfolio.svg',
     tags: ['HTML', 'CSS', 'Javascript'],
