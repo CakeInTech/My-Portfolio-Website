@@ -11,6 +11,11 @@
 - Frameworks
 - Linter
 
+## Site Mockup 
+
+![screenshot](Images&Icons/mocks/Mock1.png)
+![screenshot](Images&Icons/mocks/Mock2.png)
+![screenshot](Images&Icons/mocks/Mock3.png)
 ## Live Demo (if available)
 
 [Live Demo Link](https://mohamedck.github.io/My-Portfolio-Website/)
