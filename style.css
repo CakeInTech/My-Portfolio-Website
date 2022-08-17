@@ -428,7 +428,7 @@ hr {
 }
 
 .contact-backgrounds {
-  background: url(/Images&Icons/contact-me-back.svg);
+  background: url(Images&Icons/contact-me-back.svg);
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
