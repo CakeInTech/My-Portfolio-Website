@@ -76,7 +76,20 @@
 
 .model button {
   padding: 0.3125rem;
-  font-size: 0.9375rem;
+  font-size: 20px;
+}
+
+.model .close-button {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  padding: 0.3125rem;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 800;
+  color: #6070FF;
+  width: 50px;
+  height: 50px
 }
 
 #overlay {

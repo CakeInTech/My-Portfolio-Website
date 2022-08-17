@@ -36,12 +36,13 @@ header {
 }
 
 .my-logo {
-  width: 25%;
+  width: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
+  color: #6070FF;
   animation: rotation 2.5s;
 }
 
@@ -73,7 +74,7 @@ header {
   padding: 120px 20px;
   display: flex;
   flex-direction: column;
-  background-image: url(Images&Icons/header-shapes.svg);
+  background-image: url(/Images&Icons/header-shapes.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   align-items: center;
@@ -97,7 +98,6 @@ header {
 }
 
 .intro-text p {
-  border: 1px solid;
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -429,8 +429,8 @@ hr {
 
 .contact-backgrounds {
   background: url(/Images&Icons/contact-me-back.svg);
-  background-size: 100%;
-  background-position: center;
+  background-size: contain;
+  background-position: right;
   background-repeat: no-repeat;
   width: 100%;
 }
