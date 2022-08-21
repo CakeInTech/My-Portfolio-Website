@@ -42,7 +42,7 @@ header {
   justify-content: center;
   text-decoration: none;
   font-weight: 600;
-  color: #6070FF;
+  color: #6070ff;
   animation: rotation 2.5s;
 }
 
@@ -74,7 +74,7 @@ header {
   padding: 120px 20px;
   display: flex;
   flex-direction: column;
-  background-image: url(/Images&Icons/header-shapes.svg);
+  background-image: url(Images&Icons/header-shapes.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   align-items: center;
@@ -131,7 +131,6 @@ header {
 .contact {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
   gap: 15px;
 }
 
@@ -293,7 +292,6 @@ h2 {
 
 .button-list ul {
   gap: 10px;
-  justify-content: start;
   display: flex;
 }
 
@@ -313,20 +311,20 @@ h2 {
 }
 
 .btn button {
-  background-color: #fff;
+  background-color: #6070ff;
   margin: 10px;
   padding: 10px 20px;
   border: 1px solid #396df2;
-  color: #396df2;
+  color: #fff;
   display: flex;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 30px;
-  letter-spacing: 0.03em;
   border-radius: 6px;
   transition: all 0.5s ease-out;
+  margin-top: 30px;
 }
 
 .contact button {
@@ -347,8 +345,8 @@ h2 {
 }
 
 button:hover {
-  background-color: #6070ff;
-  color: #fff;
+  background-color: #fff;
+  color: #6070ff;
 }
 
 .About {
@@ -375,7 +373,7 @@ button:hover {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  padding: 0 0 100px 0;
+  padding: 0 0 20px 0;
 }
 
 hr {
