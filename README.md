@@ -2,7 +2,7 @@
 
 # My portfolio Project.
 
-> .
+> This is my portfolio project here you will find projects that i have built as sofware developer.
 
 
 ## Built With
