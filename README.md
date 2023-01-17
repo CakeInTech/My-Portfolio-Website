@@ -2,7 +2,7 @@
 
 # My portfolio Project.
 
-> This is my portfolio project here you will find projects that i have built as sofware developer.
+> Explore my professional portfolio featuring my background as a software developer and showcasing a selection of my notable projects. This website provides a glimpse into my skills and experience, as well as a showcase of the various projects I have built throughout my career as a developer. Take a look and discover my capabilities as a software developer.
 
 
 ## Built With
